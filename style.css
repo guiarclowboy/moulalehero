@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+body {
+	background-color: #E0E0E0;
+	margin:10px;
+}
+
+.taille {
+	height: 100px;
+}
+
+.banner {
+	background-image: radial-gradient(circle, rgb(103 98 88 / 58%) 0%, rgb(132 132 132 / 10%) 100%), url("uber_eats_logo.png");
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding-top: 2px;
+	border-radius: 5px;
+}
+.carré{
+	background-size: cover;
+	text-align: center;
+	height: 40vh;
+	box-shadow: 1px 1px 1px #00000066;
+	background-color: #CFD0CF;
+	width: 250px;
+	padding-top: 50px;
+	border-radius: 11px;
+	margin: 5px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.colones {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1px;
+}
+
+.boxhautdepage {
+	background-size: cover;
+	text-align: center;
+	height: 15vh;
+	box-shadow: 1px 1px 1px #00000066;
+	background-color: #93BD8E;
+	width: 1450px;
+	padding-top: 50px;
+	border-radius: 5px;
+	margin: 5px;
+	font-family: 'Dela Gothic One', cursive;
+}
+.taille2 {
+	height: 200px;
+	border-radius: 50%;
+}
+.colones2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1px;
+}
+.endbanner {
+	text-align: center;
+	height: 40vh;
+	box-shadow: 1px 1px 1px #00000066;
+	background-color: #1B231A;
+	width: 1450px;
+	padding-top: 90px;
+	border-radius: 5px;
+	margin: 5px;
+	font-family: 'Dela Gothic One', cursive;
+}
+.colonesend {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1px;
+}
+.h1style {
+	font-family: 'Chango', cursive;
+}
+.textefin {
+	text-align: center;
+	text-decoration-color: none
+	color:white; 
+
+}
+.bouton {
+  text-decoration: none;
+  color: white;
+  background-color
+  : #23CB2D;
+  display: block;
+  margin: 24px auto;
+  width: 20%;
+  padding: 12px;
+  border-radius: 11px;
+  border: 2px solid #9DA39E;
+  transition: 0.5s;
+  font-family: 'Anton', sans-serif;
+}
+
+.bouton:hover {
+  background-color: white;
+  color: #ff3300;
+  transition: 0.5s;
+}
+.endbanner2 {
+	text-align: center;
+	height: 15vh;
+	box-shadow: 1px 1px 1px #00000066;
+	background-color: #1B231A;
+	width: 1450px;
+	padding-top: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	font-family: 'Dela Gothic One', cursive;
+}
+p {
+	color: white;
+}
+a {
+	color: white;
+}
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px
+}
+h1 {
+	font-size: 45px
+}
